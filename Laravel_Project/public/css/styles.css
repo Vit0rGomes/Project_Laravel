@@ -1,0 +1,293 @@
+/******************* GENERAL *******************/
+* {
+    font-family: 'Roboto';
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+}
+
+
+/* footer */
+footer{
+    background-color: #353e48;
+    color: white !important;
+    width: 100%;
+    position: absolute;
+}
+
+footer a.nav-link {
+    color: white !important;
+}
+
+footer .text-center{
+    color: white !important;
+}
+
+
+/* msg Geral de Sucesso */
+.msg{
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+  
+/* botão principal */
+.btn-primary{
+    background-color: #F2A340;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #C28008;
+    border: none;
+}
+
+/******************* PRINCIPAL *******************/
+
+#search-container{
+    background-image: url("../img/53829289982_c4b4907685_c-630x421.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 12.5%;
+    text-align: center;
+}
+
+#search-container h1{
+    color: #FFFF;
+    margin-bottom: 7.5%;
+    font-weight: 900;
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*List events*/
+
+#events-container{
+    padding: 4%;
+}
+
+#cards-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#cards-container .card{
+    flex: 1 1 0;
+    min-width: 20%;
+    max-width: 10%;
+    padding: 0;
+    margin: 1.5%;
+}
+
+#cards-container .img{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.card .card-date{
+    color: #9c9c9c;
+}
+
+.card .card-title{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card-participants{
+    font-size: medium;
+    color: #757575;
+}
+
+
+/* Event Page */
+
+#image-container
+#info-container{
+    margin: 30px;
+}
+
+#image-container img{
+    border-radius: 15px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container h3,
+#description-container h3{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container p{
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container ion-icon{
+    color: #c18134;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#info-container .btn{
+    margin-top: 15px;
+}
+
+/****************** CRIAR EVENTO *******************/
+
+.criar-evento{
+    background-color: #d58b02;
+}
+
+.form-group{
+    margin: 4%;
+}
+
+#event-create-container{
+    color: #FFFF;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 2.5%;
+    background-color: rgba(0, 0, 0, 0.782);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#event-create-container label{
+    font-weight: bold;
+}
+
+.items-list{
+    list-style:decimal;
+    padding-left: 0;
+    padding-top: 4px;
+}
+
+.items-list li{
+    display: flex;
+}
+
+
+/****************** TELA DE LOGIN *******************/
+.login{
+    background-image: linear-gradient(45deg, cyan, yellow);
+}
+
+#login{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.782);
+    position: relative;
+    padding: 20px;
+    border-radius: 15px;
+    width: 20%;
+    text-align: center;
+    transform: translate(70%);
+    margin-top: 30px;
+}
+
+#login-input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#login-button{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    width: 100px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+#login-button:hover{
+    background-color: deepskyblue;
+}
+
+/******************* TELA DE CADASTRO *******************/
+.cadastro{
+    background-image: linear-gradient(45deg, rgb(0, 110, 255), cyan);
+}
+
+#cadastro{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.782);
+    position: relative;
+    padding: 20px;
+    border-radius: 15px;
+    width: 20%;
+    text-align: center;
+    transform: translate(70%);
+    margin-top: 30px;
+}
+
+legend{
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cadastroInput{
+    position: relative;
+}
+
+.cadastro-input-user{
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    width: 100%;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.cadastro-input-label{
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
+}
+
+#cadastro-input-submit{
+    background-image: linear-gradient(to right, rgb(0, 97, 195), rgb(134, 55, 134));
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+#cadastro-input-submit:hover{
+    background-image: linear-gradient(to right, blue, purple);
+}
+
+
