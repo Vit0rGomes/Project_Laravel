@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="/css/styles.css">
   <script src="/js/scripts.js"></script>
 
-
+  @livewireStyles
 </head>
 <body class= "@yield('body')" >
   <header>
@@ -101,5 +101,6 @@
   <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
 </footer>
 
+  @livewireScripts
 </body>
 </html>
